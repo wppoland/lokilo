@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Locator - Store Locator for WooCommerce 0.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/locator\n"
-"POT-Creation-Date: 2026-06-16T20:24:43+00:00\n"
+"POT-Creation-Date: 2026-06-20T04:59:35+00:00\n"
 "PO-Revision-Date: 2026-06-15 00:00+0000\n"
 "Last-Translator: WPPoland <hello@plogins.com>\n"
 "Language-Team: WPPoland <hello@plogins.com>\n"
@@ -12,10 +12,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
-"|| n%100>14) ? 1 : 2);\n"
-"X-Generator: WP-CLI 2.12.0\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Domain: plogins-locator\n"
+"X-Generator: WP-CLI 2.12.0\n"
 
 #. Plugin Name of the plugin
 #: locator.php
@@ -38,8 +37,8 @@ msgstr ""
 
 #. Author of the plugin
 #: locator.php
-msgid "WPPoland"
-msgstr "WPPoland"
+msgid "WPPoland.com"
+msgstr "WPPoland.com"
 
 #. Author URI of the plugin
 #: locator.php
@@ -48,7 +47,6 @@ msgstr "https://wppoland.com"
 
 #. translators: 1: Required PHP version, 2: Current PHP version
 #: locator.php:57
-#, php-format
 msgid "Locator requires PHP %1$s or higher. You are running PHP %2$s."
 msgstr "Wtyczka Locator wymaga PHP %1$s lub nowszego. Używasz PHP %2$s."
 
@@ -70,10 +68,10 @@ msgstr "Adres"
 
 #: src/Admin/Settings.php:100
 msgid "Adds the street, postcode, city and country block to each card."
-msgstr ""
+msgstr "Dodaje do każdej karty ulicę, kod pocztowy, miasto i blok kraju."
 
 #: src/Admin/Settings.php:103 src/PostType/StoreLocation.php:172
-#: templates/locator-list.php:99
+#: templates/partials/locator-store-item.php:49
 msgid "Opening hours"
 msgstr "Godziny otwarcia"
 
@@ -81,6 +79,8 @@ msgstr "Godziny otwarcia"
 msgid ""
 "Shows the hours you entered for the store, so customers know when to visit."
 msgstr ""
+"Pokazuje wprowadzone godziny otwarcia sklepu, dzięki czemu klienci wiedzą, "
+"kiedy odwiedzić sklep."
 
 #: src/Admin/Settings.php:107 src/PostType/StoreLocation.php:121
 #: src/PostType/StoreLocation.php:168
@@ -90,6 +90,8 @@ msgstr "Telefon"
 #: src/Admin/Settings.php:108
 msgid "Shows a click-to-call number, tapping it dials the store on mobile."
 msgstr ""
+"Pokazuje numer „kliknij, aby połączyć”, jego dotknięcie powoduje wybranie "
+"numeru sklepu na urządzeniu mobilnym."
 
 #: src/Admin/Settings.php:116
 msgid "Show customers where to find you"
@@ -97,8 +99,8 @@ msgstr "Pokaż klientom, gdzie Cię znaleźć"
 
 #: src/Admin/Settings.php:118
 msgid ""
-"Add your physical stores under WooCommerce → Store Locations, then place the "
-"shortcode below on any page to render a searchable, accessible directory "
+"Add your physical stores under WooCommerce → Store Locations, then place the"
+" shortcode below on any page to render a searchable, accessible directory "
 "your customers can filter by city, postcode or name."
 msgstr ""
 "Dodaj swoje sklepy stacjonarne w WooCommerce → Lokalizacje sklepów, a "
@@ -108,17 +110,16 @@ msgstr ""
 
 #. translators: %s: the [locator] shortcode wrapped in <code>.
 #: src/Admin/Settings.php:124
-#, php-format
 msgid "Add the %s shortcode to a page to display your locations."
 msgstr "Dodaj shortcode %s do strony, aby wyświetlić swoje lokalizacje."
 
 #: src/Admin/Settings.php:135
 msgid "Search"
-msgstr ""
+msgstr "Szukaj"
 
 #: src/Admin/Settings.php:137
 msgid "Help customers narrow a long list to the store nearest them."
-msgstr ""
+msgstr "Pomóż klientom zawęzić długą listę do najbliższego sklepu."
 
 #: src/Admin/Settings.php:142
 msgid "Search box"
@@ -130,10 +131,13 @@ msgstr "Pokaż pole wyszukiwania nad wynikami."
 
 #: src/Admin/Settings.php:151
 msgid ""
-"Visitors filter locations as they type, by city, postcode or name. Filtering "
-"happens in the browser, so no data leaves the page. Leave off if you only "
+"Visitors filter locations as they type, by city, postcode or name. Filtering"
+" happens in the browser, so no data leaves the page. Leave off if you only "
 "list a handful of stores."
 msgstr ""
+"Odwiedzający filtrują lokalizacje podczas wpisywania według miasta, kodu "
+"pocztowego lub nazwy. Filtrowanie odbywa się w przeglądarce, więc żadne dane"
+" nie opuszczają strony. Jeśli podajesz tylko kilka sklepów, pomiń tę opcję."
 
 #: src/Admin/Settings.php:160
 msgid "Fields shown on each card"
@@ -141,9 +145,12 @@ msgstr "Pola wyświetlane na każdej karcie"
 
 #: src/Admin/Settings.php:162
 msgid ""
-"The store name is always shown. Choose which extra details appear beneath it "
-", each one is only rendered when that store actually has a value."
+"The store name is always shown. Choose which extra details appear beneath "
+"it, each one is only rendered when that store actually has a value."
 msgstr ""
+"Nazwa sklepu jest zawsze wyświetlana. Wybierz, które dodatkowe szczegóły "
+"pojawią się pod nim. Każdy z nich będzie renderowany tylko wtedy, gdy dany "
+"sklep rzeczywiście ma wartość."
 
 #: src/Admin/Settings.php:167 src/Admin/Settings.php:171
 msgid "Visible fields"
@@ -151,28 +158,30 @@ msgstr "Widoczne pola"
 
 #: src/Admin/Settings.php:195
 msgid "Example card"
-msgstr ""
+msgstr "Przykładowa karta"
 
 #: src/Admin/Settings.php:203
 msgid "Riverside Store"
-msgstr ""
+msgstr "Riverside Store"
 
 #: src/Admin/Settings.php:205
 msgid "12 Mill Lane, EC1A 1BB London"
-msgstr ""
+msgstr "12 Mill Lane, EC1A 1BB London"
 
 #: src/Admin/Settings.php:208
 msgid "Mon–Sat 9:00–18:00"
-msgstr ""
+msgstr "pon.–sob. 9:00–18:00"
 
 #: src/Admin/Settings.php:211
 msgid "+44 20 7946 0000"
-msgstr ""
+msgstr "+44 20 7946 0000"
 
 #: src/Admin/Settings.php:216
 msgid ""
 "A live page also adds your search box and shows every store that matches."
 msgstr ""
+"Aktywna strona dodaje również pole wyszukiwania i wyświetla każdy pasujący "
+"sklep."
 
 #: src/PostType/StoreLocation.php:69 src/PostType/StoreLocation.php:71
 #: src/PostType/StoreLocation.php:77
@@ -237,15 +246,15 @@ msgstr "Kraj"
 
 #: src/PostType/StoreLocation.php:169
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: src/PostType/StoreLocation.php:170
 msgid "Latitude"
-msgstr ""
+msgstr "Szerokość geograficzna"
 
 #: src/PostType/StoreLocation.php:171
 msgid "Longitude"
-msgstr ""
+msgstr "Długość geograficzna"
 
 #: src/PostType/StoreLocation.php:191
 msgid "One line per day, e.g. \"Mon–Fri: 9:00–18:00\"."
@@ -256,46 +265,49 @@ msgid ""
 "Optional. Enter latitude and longitude as decimal degrees (e.g. 52.2297, "
 "21.0122) to place this location on a map."
 msgstr ""
+"Fakultatywny. Wprowadź szerokość i długość geograficzną w stopniach "
+"dziesiętnych (np. 52,2297, 21,0122), aby umieścić tę lokalizację na mapie."
 
-#: src/Service/Locator.php:95
+#: src/Service/Locator.php:146
 msgid "No store locations have been added yet."
 msgstr "Nie dodano jeszcze żadnych lokalizacji sklepów."
 
-#: templates/locator-list.php:39
+#: templates/locator-list.php:43
 msgid "Find a store"
 msgstr "Znajdź sklep"
 
-#: templates/locator-list.php:47
+#: templates/locator-list.php:51
 msgid "Search by city, postcode or name…"
 msgstr "Szukaj według miasta, kodu pocztowego lub nazwy…"
 
 #. translators: %d: number of store locations.
-#: templates/locator-list.php:58
-#, php-format
+#: templates/locator-list.php:62
 msgid "%d location"
 msgid_plural "%d locations"
 msgstr[0] "%d lokalizacja"
 msgstr[1] "%d lokalizacje"
 msgstr[2] "%d lokalizacji"
 
-#: templates/locator-list.php:64
+#: templates/locator-list.php:68
 msgid "No locations match your search."
 msgstr "Żadna lokalizacja nie pasuje do Twojego wyszukiwania."
+
+#~ msgid "WPPoland"
+#~ msgstr "WPPoland"
 
 #~ msgid "Display"
 #~ msgstr "Wyświetlanie"
 
 #~ msgid ""
-#~ "Visitors can instantly filter locations by city, postcode or name. "
-#~ "Filtering happens in the browser — no data leaves the page."
+#~ "Visitors can instantly filter locations by city, postcode or name. Filtering"
+#~ " happens in the browser — no data leaves the page."
 #~ msgstr ""
 #~ "Odwiedzający mogą natychmiast filtrować lokalizacje według miasta, kodu "
-#~ "pocztowego lub nazwy. Filtrowanie odbywa się w przeglądarce — żadne dane "
-#~ "nie opuszczają strony."
+#~ "pocztowego lub nazwy. Filtrowanie odbywa się w przeglądarce — żadne dane nie"
+#~ " opuszczają strony."
 
 #~ msgid ""
-#~ "The store name is always shown. Pick which extra details appear beneath "
-#~ "it."
+#~ "The store name is always shown. Pick which extra details appear beneath it."
 #~ msgstr ""
-#~ "Nazwa sklepu jest zawsze widoczna. Wybierz, które dodatkowe informacje "
-#~ "mają pojawić się pod nią."
+#~ "Nazwa sklepu jest zawsze widoczna. Wybierz, które dodatkowe informacje mają "
+#~ "pojawić się pod nią."
