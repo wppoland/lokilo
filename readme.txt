@@ -9,7 +9,7 @@ Requires Plugins: woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Show your physical store locations with a searchable, accessible list customers can filter by city, postcode or name.
+Help customers find your shops: a searchable list of your stores with opening hours, contact details and a Get directions link.
 
 == Description ==
 
@@ -25,6 +25,7 @@ Every location is printed into the page HTML, so the directory is there with Jav
 
 * **Locations as their own admin screen.** Store Locations sits under the WooCommerce menu, with a photo, a description and the full contact block per shop.
 * **A block and a shortcode.** The Store Locator block and `[lokilo]` render the same directory. `[lokilo limit="500"]` raises the 200-store default and `[lokilo limit="-1"]` prints every one.
+* **Search that ignores accents.** The search box filters cards over name, address, city, postcode and country as the visitor types, so "lodz" finds Łódź.
 * **An honest count.** When the page shows fewer locations than you have, it says so above the list, and says the search box only reaches the ones shown, rather than letting a visitor conclude you have no shop in their city.
 * **Directions on each card with an address.** A card with an address gets a Get directions link that opens OpenStreetMap in a new tab with the address filled in. It is a plain link: no key, no script, nothing loaded until the visitor clicks.
 * **Per-card control.** Photo, description, address, opening hours, phone and email each have a toggle. The store name always shows.
@@ -85,6 +86,7 @@ Yes. This plugin is compatible with WordPress Multisite. Network activate it or 
 
 1. The storefront directory: every location in the page, filtered as the visitor types.
 2. The settings screen: the search box, and which fields each card shows.
+3. Typing "lodz" finds the Łódź stores, each card with a Get directions link.
 
 == External Services ==
 
