@@ -62,8 +62,14 @@ $locator_fields = isset($locator_fields) && is_array($locator_fields) ? $locator
                     </address>
                     <?php
                     // A plain link: nothing is loaded or sent until the visitor
-                    // clicks, and OpenStreetMap needs no key.
-                    $locator_directions_url = 'https://www.openstreetmap.org/directions?to=' . rawurlencode(implode(', ', $locator_address_lines));
+                    // clicks, and OpenStreetMap needs no key. Coordinates route
+                    // exactly; without them the address is searched, and OSM's
+                    // search finds nothing for a street prefix such as "ul.".
+                    if (null !== $locator_store->lat && null !== $locator_store->lng) {
+                        $locator_directions_url = 'https://www.openstreetmap.org/directions?route=' . rawurlencode(';' . $locator_store->lat . ',' . $locator_store->lng);
+                    } else {
+                        $locator_directions_url = 'https://www.openstreetmap.org/directions?to=' . rawurlencode((string) preg_replace('/(^|,\s*)(?:ul|al|pl|os)\.\s*/iu', '$1', implode(', ', $locator_address_lines)));
+                    }
                     $locator_directions_label = sprintf(
                         /* translators: %s: store name. Begin with the same words as the visible "Get directions" link text. */
                         __('Get directions to %s (opens in a new tab)', 'lokilo'),
