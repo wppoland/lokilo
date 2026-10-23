@@ -60,6 +60,20 @@ $locator_fields = isset($locator_fields) && is_array($locator_fields) ? $locator
                     <address class="locator__address">
                         <?php echo wp_kses_post(nl2br(esc_html(implode("\n", $locator_address_lines)))); ?>
                     </address>
+                    <?php
+                    // A plain link: nothing is loaded or sent until the visitor
+                    // clicks, and OpenStreetMap needs no key.
+                    $locator_directions_url = 'https://www.openstreetmap.org/directions?to=' . rawurlencode(implode(', ', $locator_address_lines));
+                    $locator_directions_label = sprintf(
+                        /* translators: %s: store name. Begin with the same words as the visible "Get directions" link text. */
+                        __('Get directions to %s (opens in a new tab)', 'lokilo'),
+                        $locator_store->name,
+                    );
+                    ?>
+                    <a class="locator__directions" href="<?php echo esc_url($locator_directions_url); ?>"
+                        target="_blank" rel="noopener" aria-label="<?php echo esc_attr($locator_directions_label); ?>">
+                        <?php esc_html_e('Get directions', 'lokilo'); ?>
+                    </a>
                 <?php endif; ?>
             <?php endif; ?>
 
