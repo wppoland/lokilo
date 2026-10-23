@@ -4,7 +4,7 @@ Tags: woocommerce, store locator, store finder, locations, shortcode
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 Requires Plugins: woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -99,6 +99,10 @@ Every location is stored on your own server as a `locator_store` post, with its 
 Lokilo is fully translatable and ships the `lokilo.pot` template. Translations are delivered by WordPress.org language packs from translate.wordpress.org, which is where Polish, German and Spanish are being contributed; the package itself carries no compiled translation files.
 
 == Changelog ==
+
+= 1.3.1 =
+
+* Fix: "Get directions" routes to the store coordinates when they are set, and drops street prefixes such as "ul." from the address otherwise, since OpenStreetMap finds nothing for them.
 
 = 1.3.0 =
 * Search ignores accents on both sides: "lodz" finds Łódź and "uberlingen" finds Überlingen, in the storefront box and in the list-stores ability.
