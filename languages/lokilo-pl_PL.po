@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Locator - Store Locator for WooCommerce 0.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lokilo\n"
-"POT-Creation-Date: 2026-09-23T07:52:54+00:00\n"
+"POT-Creation-Date: 2026-10-23T11:56:43+00:00\n"
 "PO-Revision-Date: 2026-06-15 00:00+0000\n"
 "Last-Translator: motylanogha <szatkowski.mariusz@gmail.com>\n"
 "Language-Team: Polish <pl@li.org>\n"
@@ -32,7 +32,9 @@ msgstr "https://plogins.com/plogins-locator/"
 msgid ""
 "Show your physical store locations with a searchable list customers can "
 "filter by area."
-msgstr "Pokaż lokalizacje swoich sklepów stacjonarnych na przeszukiwalnej liście, którą klienci mogą filtrować według obszaru."
+msgstr ""
+"Pokaż lokalizacje swoich sklepów stacjonarnych na przeszukiwalnej liście, "
+"którą klienci mogą filtrować według obszaru."
 
 #. Author of the plugin
 #: lokilo.php
@@ -55,10 +57,6 @@ msgid "Lokilo requires WooCommerce to be installed and activated."
 msgstr "Wtyczka Lokilo wymaga zainstalowanej i aktywnej wtyczki WooCommerce."
 
 #: src/Admin/ProUpsell.php:85
-msgid "Wkrótce"
-msgstr "Wkrótce"
-
-#: src/Admin/ProUpsell.php:85
 msgid "Coming soon"
 msgstr "Wkrótce"
 
@@ -71,10 +69,6 @@ msgstr "od %1$s%2$d/rok"
 #: src/Admin/ProUpsell.php:100
 msgid "Upgrade to PRO"
 msgstr "Przejdź na PRO"
-
-#: src/Admin/ProUpsell.php:101
-msgid "Powiadom mnie"
-msgstr "Powiadom mnie"
 
 #: src/Admin/ProUpsell.php:101
 msgid "Get notified"
@@ -123,7 +117,8 @@ msgstr "Zdjęcie sklepu"
 #: src/Admin/Settings.php:112
 msgid ""
 "Shows the featured image you set on the location, at the top of its card."
-msgstr "Pokazuje obrazek wyróżniający ustawiony dla lokalizacji, na górze jej karty."
+msgstr ""
+"Pokazuje obrazek wyróżniający ustawiony dla lokalizacji, na górze jej karty."
 
 #: src/Admin/Settings.php:115
 msgid "Description"
@@ -142,7 +137,7 @@ msgid "Adds the street, postcode, city and country block to each card."
 msgstr "Dodaje do każdej karty ulicę, kod pocztowy, miasto i blok kraju."
 
 #: src/Admin/Settings.php:123 src/PostType/StoreLocation.php:178
-#: templates/partials/locator-store-item.php:68
+#: templates/partials/locator-store-item.php:82
 msgid "Opening hours"
 msgstr "Godziny otwarcia"
 
@@ -171,7 +166,9 @@ msgstr "E-mail"
 #: src/Admin/Settings.php:132
 msgid ""
 "Shows the store email as a click-to-write link, next to the phone number."
-msgstr "Pokazuje adres e-mail sklepu jako link do napisania wiadomości, obok numeru telefonu."
+msgstr ""
+"Pokazuje adres e-mail sklepu jako link do napisania wiadomości, obok numeru "
+"telefonu."
 
 #: src/Admin/Settings.php:142
 msgid "Show customers where to find you"
@@ -188,7 +185,7 @@ msgstr ""
 "przeszukiwalny, dostępny katalog, który klienci mogą filtrować według "
 "miasta, kodu pocztowego lub nazwy."
 
-#. translators: %s: the [locator] shortcode wrapped in <code>.
+#. translators: %s: the [lokilo] shortcode wrapped in <code>.
 #: src/Admin/Settings.php:150
 #, php-format
 msgid "Add the %s shortcode to a page to display your locations."
@@ -229,7 +226,10 @@ msgid ""
 "The store name is always shown. Choose which extra details appear around it, "
 "the photo above and the rest beneath. Each one is only rendered when that "
 "store actually has a value."
-msgstr "Nazwa sklepu jest zawsze wyświetlana. Wybierz, które dodatkowe szczegóły pojawią się wokół niej: zdjęcie nad nazwą, reszta pod nią. Każdy z nich jest renderowany tylko wtedy, gdy dany sklep rzeczywiście ma wartość."
+msgstr ""
+"Nazwa sklepu jest zawsze wyświetlana. Wybierz, które dodatkowe szczegóły "
+"pojawią się wokół niej: zdjęcie nad nazwą, reszta pod nią. Każdy z nich jest "
+"renderowany tylko wtedy, gdy dany sklep rzeczywiście ma wartość."
 
 #: src/Admin/Settings.php:194 src/Admin/Settings.php:198
 msgid "Visible fields"
@@ -266,7 +266,9 @@ msgstr "riverside@example.com"
 #: src/Admin/Settings.php:252
 msgid ""
 "A live page also adds your search box and shows every store that matches."
-msgstr "Aktywna strona dodaje również pole wyszukiwania i wyświetla każdy pasujący sklep."
+msgstr ""
+"Aktywna strona dodaje również pole wyszukiwania i wyświetla każdy pasujący "
+"sklep."
 
 #: src/PostType/StoreLocation.php:69 src/PostType/StoreLocation.php:71
 #: src/PostType/StoreLocation.php:77
@@ -357,7 +359,9 @@ msgstr "Lokilo: lokalizacje sklepów"
 msgid ""
 "Physical store locations with their address, contact details and opening "
 "hours."
-msgstr "Lokalizacje sklepów stacjonarnych wraz z adresem, danymi kontaktowymi i godzinami otwarcia."
+msgstr ""
+"Lokalizacje sklepów stacjonarnych wraz z adresem, danymi kontaktowymi i "
+"godzinami otwarcia."
 
 #: src/Service/AbilitiesService.php:60
 msgid "Lokilo: directory settings"
@@ -367,7 +371,9 @@ msgstr "Lokilo: ustawienia katalogu"
 msgid ""
 "How the storefront directory is configured: search box and visible card "
 "fields."
-msgstr "Konfiguracja katalogu na stronie sklepu: pole wyszukiwania i widoczne pola karty."
+msgstr ""
+"Konfiguracja katalogu na stronie sklepu: pole wyszukiwania i widoczne pola "
+"karty."
 
 #: src/Service/AbilitiesService.php:79
 msgid "List store locations"
@@ -378,17 +384,23 @@ msgid ""
 "Returns published store locations with address, contact details and opening "
 "hours. An optional search term matches the same name, address, city, "
 "postcode and country text the storefront search box filters on."
-msgstr "Zwraca opublikowane lokalizacje sklepów wraz z adresem, danymi kontaktowymi i godzinami otwarcia. Opcjonalna fraza wyszukiwania dopasowuje ten sam tekst nazwy, adresu, miasta, kodu pocztowego i kraju, który filtruje pole wyszukiwania na stronie sklepu."
+msgstr ""
+"Zwraca opublikowane lokalizacje sklepów wraz z adresem, danymi kontaktowymi "
+"i godzinami otwarcia. Opcjonalna fraza wyszukiwania dopasowuje ten sam tekst "
+"nazwy, adresu, miasta, kodu pocztowego i kraju, który filtruje pole "
+"wyszukiwania na stronie sklepu."
 
-#: src/Service/AbilitiesService.php:128
+#: src/Service/AbilitiesService.php:132
 msgid "Get a store location"
 msgstr "Pobierz lokalizację sklepu"
 
-#: src/Service/AbilitiesService.php:129
+#: src/Service/AbilitiesService.php:133
 msgid ""
 "Returns one published store location by its ID, with address, contact "
 "details and opening hours."
-msgstr "Zwraca jedną opublikowaną lokalizację sklepu na podstawie jej identyfikatora, wraz z adresem, danymi kontaktowymi i godzinami otwarcia."
+msgstr ""
+"Zwraca jedną opublikowaną lokalizację sklepu na podstawie jej "
+"identyfikatora, wraz z adresem, danymi kontaktowymi i godzinami otwarcia."
 
 #: src/Service/AbilitiesService.php:165
 msgid "Get directory settings"
@@ -398,7 +410,9 @@ msgstr "Pobierz ustawienia katalogu"
 msgid ""
 "Returns whether the storefront search box is shown and which detail fields "
 "appear on each store card."
-msgstr "Zwraca informację, czy pole wyszukiwania na stronie sklepu jest widoczne i które pola szczegółów pojawiają się na każdej karcie sklepu."
+msgstr ""
+"Zwraca informację, czy pole wyszukiwania na stronie sklepu jest widoczne i "
+"które pola szczegółów pojawiają się na każdej karcie sklepu."
 
 #: src/Service/Locator.php:190
 msgid "No store locations have been added yet."
@@ -441,7 +455,8 @@ msgstr "Żadna lokalizacja nie pasuje do Twojego wyszukiwania."
 #: templates/locator-list.php:103
 #, php-format
 msgid "This search covered only the %1$d locations listed here, out of %2$d."
-msgstr "To wyszukiwanie objęło tylko lokalizacje wymienione tutaj: %1$d z %2$d."
+msgstr ""
+"To wyszukiwanie objęło tylko lokalizacje wymienione tutaj: %1$d z %2$d."
 
 #. translators: 1: number of locations listed on this page, 2: total number of locations.
 #: templates/locator-list.php:118
@@ -451,7 +466,56 @@ msgstr "Ta strona wymienia tylko pierwsze lokalizacje: %1$d z %2$d."
 
 #: templates/locator-list.php:125
 msgid "The search box only looks through the locations listed here."
-msgstr "Pole wyszukiwania przeszukuje tylko lokalizacje wymienione na tej stronie."
+msgstr ""
+"Pole wyszukiwania przeszukuje tylko lokalizacje wymienione na tej stronie."
+
+#. translators: %s: store name. Begin with the same words as the visible "Get directions" link text.
+#: templates/partials/locator-store-item.php:69
+#, php-format
+msgid "Get directions to %s (opens in a new tab)"
+msgstr ""
+
+#: templates/partials/locator-store-item.php:75
+msgid "Get directions"
+msgstr ""
+
+#: blocks/store-locator/block.json
+msgctxt "block title"
+msgid "Store Locator"
+msgstr ""
+
+#: blocks/store-locator/block.json
+msgctxt "block description"
+msgid ""
+"Show your store locations as a searchable list (the same directory as the "
+"[lokilo] shortcode)."
+msgstr ""
+
+#: blocks/store-locator/block.json
+msgctxt "block keyword"
+msgid "store locator"
+msgstr ""
+
+#: blocks/store-locator/block.json
+msgctxt "block keyword"
+msgid "stores"
+msgstr ""
+
+#: blocks/store-locator/block.json
+msgctxt "block keyword"
+msgid "locations"
+msgstr ""
+
+#: blocks/store-locator/block.json
+msgctxt "block keyword"
+msgid "lokilo"
+msgstr ""
+
+#~ msgid "Wkrótce"
+#~ msgstr "Wkrótce"
+
+#~ msgid "Powiadom mnie"
+#~ msgstr "Powiadom mnie"
 
 #~ msgid "Locator - Store Locator for WooCommerce"
 #~ msgstr "Locator - Wyszukiwarka sklepów dla WooCommerce"
