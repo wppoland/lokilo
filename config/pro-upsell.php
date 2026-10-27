@@ -12,6 +12,8 @@ defined('ABSPATH') || exit;
 return [
     'name'       => 'Lokilo Pro',
     'url'        => 'https://plogins.com/plogins-locator-pro/pricing/',
+    'campaign'   => 'plogins-locator',
+    'locales'    => ['pl', 'de', 'es'],
     'sellable'   => true,
     'price_from' => 29,
     'currency'   => 'EUR',

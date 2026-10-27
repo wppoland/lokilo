@@ -4,7 +4,7 @@ Tags: woocommerce, store locator, store finder, locations, shortcode
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.3.2
+Stable tag: 1.3.3
 Requires Plugins: woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -41,18 +41,21 @@ It does not import in bulk. Locations are added one at a time in wp-admin.
 
 == Lokilo Pro ==
 
-Lokilo Pro is a separate paid plugin that extends Lokilo:
+Lokilo Pro is a separate paid plugin that extends Lokilo.
 
-| Feature | Free | Pro |
-|:--- |:---:|:---:|
-| Managed locations | Yes | Yes |
-| [lokilo] shortcode | Yes | Yes |
-| Instant filtering | Yes | Yes |
-| Clean card list | Yes | Yes |
-| Choose visible fields | Yes | Yes |
-| Interactive map | - | Yes |
-| Region grouping | - | Yes |
-| Bulk import | - | Yes |
+Included in Lokilo:
+
+* Managed locations
+* [lokilo] shortcode
+* Instant filtering
+* Clean card list
+* Choose visible fields
+
+Lokilo Pro adds:
+
+* Interactive map
+* Region grouping
+* Bulk import
 
 The free edition is not a trial and its features stay available without a time limit.
 
@@ -123,6 +126,10 @@ Every location is stored on your own server as a `locator_store` post, with its 
 Lokilo is fully translatable and ships the `lokilo.pot` template. Translations are delivered by WordPress.org language packs from translate.wordpress.org, which is where Polish, German and Spanish are being contributed; the package itself carries no compiled translation files.
 
 == Changelog ==
+
+= 1.3.3 =
+* The Upgrade to PRO links open the pricing page in the admin's language where plogins.com has one, and tell plogins.com which plugin the visit came from (utm_source, utm_medium and utm_campaign in the link). Nothing is sent from your site.
+* Readme: the PRO section lists what the free plugin includes and what the paid edition adds as two lists, which WordPress.org can display (it does not display tables).
 
 = 1.3.2 =
 * Readme only: a PRO section with links to the paid edition.
