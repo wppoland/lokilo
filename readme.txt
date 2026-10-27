@@ -4,7 +4,7 @@ Tags: woocommerce, store locator, store finder, locations, shortcode
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.3.1
+Stable tag: 1.3.2
 Requires Plugins: woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -39,6 +39,20 @@ There is no map view and no geolocation of the visitor. Directions are the link 
 
 It does not import in bulk. Locations are added one at a time in wp-admin.
 
+== Lokilo Pro ==
+
+Lokilo Pro is a separate paid plugin that works on top of Lokilo. It adds:
+
+* Interactive map
+* Region grouping
+* Bulk import
+
+The free edition is not a trial and its features stay available without a time limit.
+
+* **Lokilo Pro** - [plogins.com/plogins-locator-pro/](https://plogins.com/plogins-locator-pro/)
+* **Compare editions and pricing** - [plogins.com/plogins-locator-pro/pricing/](https://plogins.com/plogins-locator-pro/pricing/)
+* **PRO documentation** - [plogins.com/plogins-locator-pro/docs/](https://plogins.com/plogins-locator-pro/docs/)
+
 == Installation ==
 
 1. Upload the plugin to `/wp-content/plugins/lokilo`, or install via Plugins > Add New.
@@ -55,6 +69,7 @@ It does not import in bulk. Locations are added one at a time in wp-admin.
 * **Plugin page**: [plogins.com/plogins-locator/](https://plogins.com/plogins-locator/)
 * **Source code**: [github.com/wppoland/plogins-locator](https://github.com/wppoland/plogins-locator)
 * **Bug reports and feature requests**: [github.com/wppoland/plogins-locator/issues](https://github.com/wppoland/plogins-locator/issues)
+* **Lokilo Pro**: [plogins.com/plogins-locator-pro/](https://plogins.com/plogins-locator-pro/)
 
 
 = Does it require WooCommerce? =
@@ -101,6 +116,9 @@ Every location is stored on your own server as a `locator_store` post, with its 
 Lokilo is fully translatable and ships the `lokilo.pot` template. Translations are delivered by WordPress.org language packs from translate.wordpress.org, which is where Polish, German and Spanish are being contributed; the package itself carries no compiled translation files.
 
 == Changelog ==
+
+= 1.3.2 =
+* Readme only: a PRO section with links to the paid edition.
 
 = 1.3.1 =
 
