@@ -41,11 +41,18 @@ It does not import in bulk. Locations are added one at a time in wp-admin.
 
 == Lokilo Pro ==
 
-Lokilo Pro is a separate paid plugin that works on top of Lokilo. It adds:
+Lokilo Pro is a separate paid plugin that extends Lokilo:
 
-* Interactive map
-* Region grouping
-* Bulk import
+| Feature | Free | Pro |
+|:--- |:---:|:---:|
+| Managed locations | Yes | Yes |
+| [lokilo] shortcode | Yes | Yes |
+| Instant filtering | Yes | Yes |
+| Clean card list | Yes | Yes |
+| Choose visible fields | Yes | Yes |
+| Interactive map | - | Yes |
+| Region grouping | - | Yes |
+| Bulk import | - | Yes |
 
 The free edition is not a trial and its features stay available without a time limit.
 
