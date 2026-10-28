@@ -21,7 +21,7 @@ msgstr ""
 
 #. Plugin URI of the plugin
 #: lokilo.php
-msgid "https://plogins.com/plogins-locator/"
+msgid "https://plogins.com/lokilo/"
 msgstr ""
 
 #. Description of the plugin

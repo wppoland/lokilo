@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 /**
  * Plugin Name:       Lokilo - Store Locator for WooCommerce
- * Plugin URI:        https://plogins.com/plogins-locator/
+ * Plugin URI:        https://plogins.com/lokilo/
  * Description:        Show your physical store locations with a searchable list customers can filter by area.
- * Version:           1.3.3
+ * Version:           1.3.4
  * Requires at least: 6.5
  * Requires PHP:      8.1
  * Author:            WPPoland.com
@@ -27,7 +27,7 @@ namespace Locator;
 
 defined('ABSPATH') || exit;
 
-const VERSION     = '1.3.3';
+const VERSION     = '1.3.4';
 const PLUGIN_FILE     = __FILE__;
 const PLUGIN_DIR      = __DIR__;
 const MIN_PHP_VERSION = '8.1.0';

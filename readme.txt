@@ -4,7 +4,7 @@ Tags: woocommerce, store locator, store finder, locations, shortcode
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.3.3
+Stable tag: 1.3.4
 Requires Plugins: woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -59,9 +59,9 @@ Lokilo Pro adds:
 
 The free edition is not a trial and its features stay available without a time limit.
 
-* **Lokilo Pro** - [plogins.com/plogins-locator-pro/](https://plogins.com/plogins-locator-pro/)
-* **Compare editions and pricing** - [plogins.com/plogins-locator-pro/pricing/](https://plogins.com/plogins-locator-pro/pricing/)
-* **PRO documentation** - [plogins.com/plogins-locator-pro/docs/](https://plogins.com/plogins-locator-pro/docs/)
+* **Lokilo Pro** - [plogins.com/lokilo-pro/](https://plogins.com/lokilo-pro/)
+* **Compare editions and pricing** - [plogins.com/lokilo-pro/pricing/](https://plogins.com/lokilo-pro/pricing/)
+* **PRO documentation** - [plogins.com/lokilo-pro/docs/](https://plogins.com/lokilo-pro/docs/)
 
 == Installation ==
 
@@ -75,11 +75,11 @@ The free edition is not a trial and its features stay available without a time l
 
 = Documentation and links =
 
-* **Documentation**: [plogins.com/plogins-locator/docs/](https://plogins.com/plogins-locator/docs/)
-* **Plugin page**: [plogins.com/plogins-locator/](https://plogins.com/plogins-locator/)
-* **Source code**: [github.com/wppoland/plogins-locator](https://github.com/wppoland/plogins-locator)
-* **Bug reports and feature requests**: [github.com/wppoland/plogins-locator/issues](https://github.com/wppoland/plogins-locator/issues)
-* **Lokilo Pro**: [plogins.com/plogins-locator-pro/](https://plogins.com/plogins-locator-pro/)
+* **Documentation**: [plogins.com/lokilo/docs/](https://plogins.com/lokilo/docs/)
+* **Plugin page**: [plogins.com/lokilo/](https://plogins.com/lokilo/)
+* **Source code**: [github.com/wppoland/lokilo](https://github.com/wppoland/lokilo)
+* **Bug reports and feature requests**: [github.com/wppoland/lokilo/issues](https://github.com/wppoland/lokilo/issues)
+* **Lokilo Pro**: [plogins.com/lokilo-pro/](https://plogins.com/lokilo-pro/)
 
 
 = Does it require WooCommerce? =
@@ -126,6 +126,9 @@ Every location is stored on your own server as a `locator_store` post, with its 
 Lokilo is fully translatable and ships the `lokilo.pot` template. Translations are delivered by WordPress.org language packs from translate.wordpress.org, which is where Polish, German and Spanish are being contributed; the package itself carries no compiled translation files.
 
 == Changelog ==
+
+= 1.3.4 =
+* Links point at the new plogins.com address and the renamed GitHub repository.
 
 = 1.3.3 =
 * The Upgrade to PRO links open the pricing page in the admin's language where plogins.com has one, and tell plogins.com which plugin the visit came from (utm_source, utm_medium and utm_campaign in the link). Nothing is sent from your site.
