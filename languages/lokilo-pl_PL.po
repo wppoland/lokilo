@@ -24,8 +24,8 @@ msgstr "Lokilo - Wyszukiwarka sklepów dla WooCommerce"
 
 #. Plugin URI of the plugin
 #: lokilo.php
-msgid "https://plogins.com/plogins-locator/"
-msgstr "https://plogins.com/plogins-locator/"
+msgid "https://plogins.com/lokilo/"
+msgstr "https://plogins.com/lokilo/"
 
 #. Description of the plugin
 #: lokilo.php

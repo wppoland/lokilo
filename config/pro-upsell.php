@@ -4,15 +4,15 @@
  * scripts/gen-pro-upsell.mjs. The admin upsell renders this; curate the
  * feature list to fit this plugin's settings screen (do not invent features).
  *
- * @package plogins-locator-pro
+ * @package lokilo-pro
  */
 
 defined('ABSPATH') || exit;
 
 return [
     'name'       => 'Lokilo Pro',
-    'url'        => 'https://plogins.com/plogins-locator-pro/pricing/',
-    'campaign'   => 'plogins-locator',
+    'url'        => 'https://plogins.com/lokilo-pro/pricing/',
+    'campaign'   => 'lokilo',
     'locales'    => ['pl', 'de', 'es'],
     'sellable'   => true,
     'price_from' => 29,
