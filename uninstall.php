@@ -12,8 +12,26 @@
 
 defined('WP_UNINSTALL_PLUGIN') || exit;
 
-delete_option('locator_settings');
-delete_option('locator_db_version');
+/**
+ * Remove this plugin's options from the current site.
+ */
+function locator_uninstall_site(): void
+{
+    delete_option('locator_settings');
+    delete_option('locator_db_version');
+}
+
+// Options are per site, so a network uninstall has to visit every site.
+if (is_multisite()) {
+    foreach (get_sites(['fields' => 'ids', 'number' => 0]) as $locator_site_id) {
+        switch_to_blog((int) $locator_site_id);
+        locator_uninstall_site();
+        restore_current_blog();
+    }
+    unset($locator_site_id);
+} else {
+    locator_uninstall_site();
+}
 
 // The PRO banner's dismissal is stored per user, so it belongs to the
 // plugin rather than to the site content. User meta is global, not
