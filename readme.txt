@@ -4,7 +4,7 @@ Tags: woocommerce, store locator, store finder, locations, shortcode
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.3.5
+Stable tag: 1.3.6
 Requires Plugins: woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -126,6 +126,9 @@ Every location is stored on your own server as a `locator_store` post, with its 
 Lokilo is fully translatable and ships the `lokilo.pot` template. Translations are delivered by WordPress.org language packs from translate.wordpress.org, which is where Polish, German and Spanish are being contributed; the package itself carries no compiled translation files.
 
 == Changelog ==
+
+= 1.3.6 =
+* Changed: dark styling follows the theme's color scheme instead of the visitor's operating system, so widgets stay light on light themes; older browsers keep the previous behaviour.
 
 = 1.3.5 =
 * Fixed: deleting the plugin on a multisite network now removes its settings from every site, not only the main one.
