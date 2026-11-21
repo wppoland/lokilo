@@ -25,16 +25,36 @@
   color: inherit;
 }
 
-@media (prefers-color-scheme: dark) {
+/* Dark styling follows the page's color-scheme (set by the theme), not the
+   visitor's OS. Tokens sit in @supports: a custom property is never dropped
+   at parse time, so an unsupported light-dark() would blank every use site. */
+@supports (color: light-dark(white, black)) {
   .locator {
-    --locator-border: rgba(120, 220, 205, 0.55);
-    --locator-bg: #161b1a;
-    --locator-muted: #9aa8a4;
-    --locator-accent: #45c4b0;
-    --locator-accent-soft: rgba(69, 196, 176, 0.16);
-    --locator-pin: #5fd3bf;
-    --locator-grid: rgba(69, 196, 176, 0.18);
-    --locator-shadow: none;
+    --locator-border: light-dark(rgba(15, 60, 56, 0.55), rgba(120, 220, 205, 0.55));
+    --locator-bg: light-dark(#fff, #161b1a);
+    --locator-muted: light-dark(#5b6470, #9aa8a4);
+    --locator-accent: light-dark(#0f766e, #45c4b0);
+    --locator-accent-soft: light-dark(rgba(15, 118, 110, 0.12), rgba(69, 196, 176, 0.16));
+    --locator-pin: light-dark(#0f766e, #5fd3bf);
+    --locator-grid: light-dark(rgba(15, 118, 110, 0.14), rgba(69, 196, 176, 0.18));
+    /* Dark was "none": a transparent shadow paints nothing. */
+    --locator-shadow: 0 1px 2px light-dark(rgba(15, 60, 56, 0.06), transparent);
+  }
+}
+
+/* Browsers without light-dark() keep the previous OS-based dark pass. */
+@supports not (color: light-dark(white, black)) {
+  @media (prefers-color-scheme: dark) {
+    .locator {
+      --locator-border: rgba(120, 220, 205, 0.55);
+      --locator-bg: #161b1a;
+      --locator-muted: #9aa8a4;
+      --locator-accent: #45c4b0;
+      --locator-accent-soft: rgba(69, 196, 176, 0.16);
+      --locator-pin: #5fd3bf;
+      --locator-grid: rgba(69, 196, 176, 0.18);
+      --locator-shadow: none;
+    }
   }
 }
 
