@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Locator - Store Locator for WooCommerce 0.1.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lokilo\n"
-"POT-Creation-Date: 2026-10-23T11:56:43+00:00\n"
+"POT-Creation-Date: 2026-11-25T14:32:01+00:00\n"
 "PO-Revision-Date: 2026-06-20T04:59:35+00:00\n"
 "Last-Translator: motylanogha <szatkowski.mariusz@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
@@ -55,130 +55,139 @@ msgstr "Lokilo requiere PHP %1$s o superior. Estás ejecutando PHP %2$s."
 msgid "Lokilo requires WooCommerce to be installed and activated."
 msgstr "Lokilo requiere que WooCommerce esté instalado y activado."
 
-#: src/Admin/ProUpsell.php:85
+#: src/Admin/ProUpsell.php:110
 msgid "Coming soon"
 msgstr "Próximamente"
 
 #. translators: 1: currency symbol, 2: yearly price
-#: src/Admin/ProUpsell.php:91
+#: src/Admin/ProUpsell.php:116
 #, php-format
 msgid "from %1$s%2$d/yr"
 msgstr "desde %1$s%2$d/año"
 
-#: src/Admin/ProUpsell.php:100
+#: src/Admin/ProUpsell.php:125
 msgid "Upgrade to PRO"
 msgstr "Mejora a PRO"
 
-#: src/Admin/ProUpsell.php:101
+#: src/Admin/ProUpsell.php:126
 msgid "Get notified"
 msgstr "Avísame"
 
-#: src/Admin/ProUpsell.php:131
+#: src/Admin/ProUpsell.php:156
 msgid "Permission denied."
 msgstr "Permiso denegado."
 
 #. translators: %s: PRO edition name
-#: src/Admin/ProUpsell.php:161
+#: src/Admin/ProUpsell.php:186
 #, php-format
 msgid "Do more with %s"
 msgstr "Haz más con %s"
 
-#: src/Admin/ProUpsell.php:168
+#: src/Admin/ProUpsell.php:193
 msgid "Dismiss this notice"
 msgstr "Descartar este aviso"
 
-#: src/Admin/ProUpsell.php:190
+#: src/Admin/ProUpsell.php:215
 msgid "Unlock every PRO feature"
 msgstr "Desbloquea todas las funciones PRO"
 
-#: src/Admin/ProUpsell.php:203
+#: src/Admin/ProUpsell.php:228
 msgid "one licence, every PRO feature"
 msgstr "una licencia, todas las funciones PRO"
 
 #. translators: %s: PRO edition name
-#: src/Admin/ProUpsell.php:222
+#: src/Admin/ProUpsell.php:247
 #, php-format
 msgid "What %s adds"
 msgstr "Lo que añade %s"
 
-#: src/Admin/Settings.php:74
+#: src/Admin/Settings.php:75
 msgid "Lokilo: store locator"
 msgstr "Lokilo: localizador de tiendas"
 
-#: src/Admin/Settings.php:75
+#: src/Admin/Settings.php:76
 msgid "Lokilo"
 msgstr "Lokilo"
 
-#: src/Admin/Settings.php:111
+#: src/Admin/Settings.php:93
+msgid "Settings"
+msgstr ""
+
+#: src/Admin/Settings.php:94 src/PostType/StoreLocation.php:69
+#: src/PostType/StoreLocation.php:71 src/PostType/StoreLocation.php:77
+msgid "Store Locations"
+msgstr "Ubicaciones de las tiendas"
+
+#: src/Admin/Settings.php:129
 msgid "Store photo"
 msgstr "Foto de la tienda"
 
-#: src/Admin/Settings.php:112
+#: src/Admin/Settings.php:130
 msgid ""
 "Shows the featured image you set on the location, at the top of its card."
 msgstr ""
 "Muestra la imagen destacada que asignaste a la ubicación, en la parte "
 "superior de su tarjeta."
 
-#: src/Admin/Settings.php:115
+#: src/Admin/Settings.php:133
 msgid "Description"
 msgstr "Descripción"
 
-#: src/Admin/Settings.php:116
+#: src/Admin/Settings.php:134
 msgid "Prints the text you wrote in the location editor, under the store name."
 msgstr ""
 "Muestra el texto que escribiste en el editor de la ubicación, debajo del "
 "nombre de la tienda."
 
-#: src/Admin/Settings.php:119
+#: src/Admin/Settings.php:137
 msgid "Address"
 msgstr "Dirección"
 
-#: src/Admin/Settings.php:120
+#: src/Admin/Settings.php:138
 msgid "Adds the street, postcode, city and country block to each card."
 msgstr ""
 "Añade la calle, el código postal, la ciudad y el bloque del país a cada "
 "tarjeta."
 
-#: src/Admin/Settings.php:123 src/PostType/StoreLocation.php:178
-#: templates/partials/locator-store-item.php:82
+#: src/Admin/Settings.php:141 src/PostType/StoreLocation.php:178
+#: templates/partials/locator-store-item.php:88
 msgid "Opening hours"
 msgstr "Horario de apertura"
 
-#: src/Admin/Settings.php:124
+#: src/Admin/Settings.php:142
 msgid ""
 "Shows the hours you entered for the store, so customers know when to visit."
 msgstr ""
 "Muestra el horario que ingresaste para la tienda, para que los clientes "
 "sepan cuándo visitarla."
 
-#: src/Admin/Settings.php:127 src/PostType/StoreLocation.php:127
+#: src/Admin/Settings.php:145 src/PostType/StoreLocation.php:127
 #: src/PostType/StoreLocation.php:174
 msgid "Phone"
 msgstr "Teléfono"
 
-#: src/Admin/Settings.php:128
+#: src/Admin/Settings.php:146
 msgid "Shows a click-to-call number, tapping it dials the store on mobile."
 msgstr ""
 "Muestra un número de clic para llamar; al tocarlo, se marca la tienda en el "
 "móvil."
 
-#: src/Admin/Settings.php:131 src/PostType/StoreLocation.php:175
+#: src/Admin/Settings.php:149 src/PostType/StoreLocation.php:175
 msgid "Email"
 msgstr "Correo electrónico"
 
-#: src/Admin/Settings.php:132
+#: src/Admin/Settings.php:150
 msgid ""
 "Shows the store email as a click-to-write link, next to the phone number."
 msgstr ""
 "Muestra el correo electrónico de la tienda como un enlace de clic para "
 "escribir, junto al número de teléfono."
 
-#: src/Admin/Settings.php:142
+#: src/Admin/Settings.php:160
 msgid "Show customers where to find you"
 msgstr "Muestra a los clientes dónde encontrarte"
 
-#: src/Admin/Settings.php:144
+#: src/Admin/Settings.php:162
 msgid ""
 "Add your physical stores under WooCommerce > Store Locations, then place the "
 "shortcode below on any page to render a searchable, accessible directory "
@@ -190,29 +199,29 @@ msgstr ""
 "filtrar por ciudad, código postal o nombre."
 
 #. translators: %s: the [lokilo] shortcode wrapped in <code>.
-#: src/Admin/Settings.php:150
+#: src/Admin/Settings.php:168
 #, php-format
 msgid "Add the %s shortcode to a page to display your locations."
 msgstr "Añade el código corto %s a una página para mostrar tus ubicaciones."
 
-#: src/Admin/Settings.php:162
+#: src/Admin/Settings.php:180
 msgid "Search"
 msgstr "Buscar"
 
-#: src/Admin/Settings.php:164
+#: src/Admin/Settings.php:182
 msgid "Help customers narrow a long list to the store nearest them."
 msgstr ""
 "Ayuda a los clientes a reducir una lista larga a la tienda más cercana."
 
-#: src/Admin/Settings.php:169
+#: src/Admin/Settings.php:187
 msgid "Search box"
 msgstr "Cuadro de búsqueda"
 
-#: src/Admin/Settings.php:175
+#: src/Admin/Settings.php:193
 msgid "Show the search box above the results."
 msgstr "Muestra el cuadro de búsqueda encima de los resultados."
 
-#: src/Admin/Settings.php:178
+#: src/Admin/Settings.php:196
 msgid ""
 "Visitors filter locations as they type, by city, postcode or name. Filtering "
 "happens in the browser, so no data leaves the page. Leave off if you only "
@@ -222,11 +231,11 @@ msgstr ""
 "postal o nombre. El filtrado se realiza en el navegador, por lo que ningún "
 "dato sale de la página. Déjalo si solo incluyes un puñado de tiendas."
 
-#: src/Admin/Settings.php:187
+#: src/Admin/Settings.php:205
 msgid "Fields shown on each card"
 msgstr "Campos mostrados en cada tarjeta"
 
-#: src/Admin/Settings.php:189
+#: src/Admin/Settings.php:207
 msgid ""
 "The store name is always shown. Choose which extra details appear around it, "
 "the photo above and the rest beneath. Each one is only rendered when that "
@@ -236,49 +245,44 @@ msgstr ""
 "aparecen a su alrededor: la foto encima y el resto debajo. Cada uno solo se "
 "representa cuando esa tienda realmente tiene un valor."
 
-#: src/Admin/Settings.php:194 src/Admin/Settings.php:198
+#: src/Admin/Settings.php:212 src/Admin/Settings.php:216
 msgid "Visible fields"
 msgstr "Campos visibles"
 
-#: src/Admin/Settings.php:222
+#: src/Admin/Settings.php:240
 msgid "Example card"
 msgstr "tarjeta de ejemplo"
 
-#: src/Admin/Settings.php:233
+#: src/Admin/Settings.php:251
 msgid "Riverside Store"
 msgstr "Riverside Store"
 
-#: src/Admin/Settings.php:235
+#: src/Admin/Settings.php:253
 msgid "Our oldest shop, on the water since 1998."
 msgstr "Nuestra tienda más antigua, junto al agua desde 1998."
 
-#: src/Admin/Settings.php:238
+#: src/Admin/Settings.php:256
 msgid "12 Mill Lane, EC1A 1BB London"
 msgstr "12 Mill Lane, EC1A 1BB London"
 
-#: src/Admin/Settings.php:241
+#: src/Admin/Settings.php:259
 msgid "Mon, Sat 9:00-18:00"
 msgstr "Lunes a sábado de 9:00 a 18:00"
 
-#: src/Admin/Settings.php:244
+#: src/Admin/Settings.php:262
 msgid "+44 20 7946 0000"
 msgstr "+44 20 7946 0000"
 
-#: src/Admin/Settings.php:247
+#: src/Admin/Settings.php:265
 msgid "riverside@example.com"
 msgstr "riverside@example.com"
 
-#: src/Admin/Settings.php:252
+#: src/Admin/Settings.php:270
 msgid ""
 "A live page also adds your search box and shows every store that matches."
 msgstr ""
 "Una página en vivo también añade tu cuadro de búsqueda y muestra todas las "
 "tiendas que coinciden."
-
-#: src/PostType/StoreLocation.php:69 src/PostType/StoreLocation.php:71
-#: src/PostType/StoreLocation.php:77
-msgid "Store Locations"
-msgstr "Ubicaciones de las tiendas"
 
 #: src/PostType/StoreLocation.php:70
 msgid "Store Location"
@@ -474,12 +478,12 @@ msgid "The search box only looks through the locations listed here."
 msgstr "El cuadro de búsqueda solo revisa las ubicaciones listadas aquí."
 
 #. translators: %s: store name. Begin with the same words as the visible "Get directions" link text.
-#: templates/partials/locator-store-item.php:69
+#: templates/partials/locator-store-item.php:75
 #, php-format
 msgid "Get directions to %s (opens in a new tab)"
 msgstr ""
 
-#: templates/partials/locator-store-item.php:75
+#: templates/partials/locator-store-item.php:81
 msgid "Get directions"
 msgstr ""
 
