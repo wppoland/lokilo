@@ -2,7 +2,7 @@
 Contributors: motylanogha
 Tags: woocommerce, store locator, store finder, locations, shortcode
 Requires at least: 6.5
-Tested up to: 7.1
+Tested up to: 7.2
 Requires PHP: 8.1
 Stable tag: 1.3.7
 Requires Plugins: woocommerce
