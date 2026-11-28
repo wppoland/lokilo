@@ -23,7 +23,7 @@ return [
     ],
     'features'   => [
         [
-            'en' => ['title' => 'Interactive map', 'desc' => 'An embedded map with pins for every geocoded location via [locator_map], built on OpenStreetMap tiles.'],
+            'en' => ['title' => 'Interactive map', 'desc' => 'An embedded map with pins for every location with a latitude and longitude entered, via [locator_map], built on OpenStreetMap tiles.'],
             'pl' => ['title' => 'Interaktywna mapa', 'desc' => 'Osadzona mapa z pinezkami dla każdej lokalizacji, oparta na współrzędnych obok przeszukiwalnej listy.'],
         ],
         [
